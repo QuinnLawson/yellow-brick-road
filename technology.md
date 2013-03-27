@@ -75,11 +75,6 @@ On your Windows machine, open up `C:\windows\system32\drivers\etc\hosts` and add
 
 Save the file. Your new URL will now point to your site!
 
-
-#### Mastery
-
-To master LAMP, check out these tutorials.
-
 ##### Linux
 Essentials: 
 * [The 5-Minute Essential Shell Tutorial](http://community.linuxmint.com/tutorial/view/100) - *30 minutes*
