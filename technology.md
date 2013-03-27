@@ -81,8 +81,8 @@ Save the file. Your new URL will now point to your site!
 To master LAMP, check out these tutorials.
 
 ##### Linux
-* [Tutorial 1]() - 4 hours
-* [Article 1]() - 1 hour
+* Essentials: [The 5-Minute Essential Shell Tutorial](http://community.linuxmint.com/tutorial/view/100) - *30 minutes*
+* Mastery: [50 Most Frequently Used UNIX / Linux Commands (With Examples)](http://www.thegeekstuff.com/2010/11/50-linux-commands/) - *1 hour*
 
 ##### Apache
 * [Tutorial 1]() - 4 hours
