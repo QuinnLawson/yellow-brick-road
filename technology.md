@@ -41,7 +41,7 @@ Server
 
 #### How We Use LAMP
 
-[LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle)) stands for **Linux, Apache, MySQL, PHP** and it is the technology stack that we use at rtraction. Developers each have their own LAMP installed on a CentOS VirtualBox that mimics the environment on our test and live servers.
+[LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle) stands for **Linux, Apache, MySQL, PHP** and it is the technology stack that we use at rtraction. Developers each have their own LAMP installed on a CentOS VirtualBox that mimics the environment on our test and live servers.
 
 At rtraction your computer will come with LAMP already installed and configured.
 
