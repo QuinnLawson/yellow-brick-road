@@ -76,13 +76,25 @@ On your Windows machine, open up `C:\windows\system32\drivers\etc\hosts` and add
 Save the file. Your new URL will now point to your site!
 
 
-#### Master
+#### Mastery
 
 To master LAMP, check out these tutorials.
 
+##### Linux
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
 
+##### Apache
+* [Tutorial 1]() - 4 hours
+* [Article 1]() - 1 hour
+
+##### MySQL
+* [Tutorial 1]() - 4 hours
+* [Article 1]() - 1 hour
+
+##### PHP
+* [Tutorial 1]() - 4 hours
+* [Article 1]() - 1 hour
 
 
 <a id="drupal"></a>Drupal
