@@ -30,9 +30,10 @@ Contents
 
 
 Server
-------
+======
 
-### <a id="lamp"></a>LAMP
+<a id="lamp"></a>LAMP
+-----------------------------
 
 #### Install
 
@@ -55,38 +56,50 @@ To master LAMP, go through each of these tutorials.
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
 
-### <a id="drupal"></a>Drupal
+<a id="drupal"></a>Drupal
+-----------------------------
 
-### <a id="wordpress"></a>Wordpress
+<a id="wordpress"></a>Wordpress
+-----------------------------
 
-### <a id="laravel"></a>Laravel
+<a id="laravel"></a>Laravel
+-----------------------------
 
 Client-side
------------
+===========
 
-### <a id="jquery"></a>jQuery
+<a id="jquery"></a>jQuery
+-----------------------------
 
-### <a id="bootstrap"></a>Bootstrap
+<a id="bootstrap"></a>Bootstrap
+-----------------------------
 
-### <a id="html5boilerplate"></a>HTML5 Boilerplate
+<a id="html5boilerplate"></a>HTML5 Boilerplate
+-----------------------------
 
 Mobile
-------
+======
 
-### <a id="jqmobi"></a>jQMobi
+<a id="jqmobi"></a>jQMobi
+-----------------------------
 
-### <a id="320andup"></a>320 And Up
+<a id="320andup"></a>320 And Up
+-----------------------------
 
-### <a id="html5mobile"></a>HTML5 Mobile Boilerplate
+<a id="html5mobile"></a>HTML5 Mobile Boilerplate
+-----------------------------
 
-### <a id="phonegap"></a>Phonegap
+<a id="phonegap"></a>Phonegap
+-----------------------------
 
 Previously Used
----------------
+===============
 
-### <a id="cakephp"></a>CakePHP
+<a id="cakephp"></a>CakePHP
+---------------------------
 
-### <a id="codeigniter"></a>CodeIgniter
+<a id="codeigniter"></a>CodeIgniter
+-----------------------------
 
 
 
