@@ -34,6 +34,27 @@ Server
 
 ### <a id="lamp"></a>LAMP
 
+#### Install
+
+These links teach you how to install LAMP:
+
+* [Link 1]() - 30 minutes
+* [Link 2]() - 15 minutes
+
+#### Get Started
+
+These links will give you enough knowledge to get started working with LAMP.
+
+* [Tutorial 1]() - 1 hour
+* [Tutorial 2]() - 2 hours
+
+#### Master
+
+To master LAMP, go through each of these tutorials.
+
+* [Tutorial 1]() - 4 hours
+* [Article 1]() - 1 hour
+
 ### <a id="drupal"></a>Drupal
 
 ### <a id="wordpress"></a>Wordpress
