@@ -47,8 +47,8 @@ At rtraction your computer will come with LAMP already installed and configured.
 
 A common task developers have to do is add a virtual host to their Apache setup. To do this:
 
-Using your [Git Bash](#git), SSH into your virtual machine. replace `your-dev.address.com` with your dev URL or your  virtual machine's IP address.
-```bash
+Using your [Git Bash](#git), SSH into your virtual machine (replacing `your-dev.address.com` with your dev URL or your  virtual machine's IP address).
+```cli
 $ ssh root@your-dev.address.com
 (enter your password)
 # vi /etc/httpd/conf/httpd.conf
