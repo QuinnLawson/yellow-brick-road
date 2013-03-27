@@ -63,7 +63,7 @@ Page down until you get to the end of the file. Press `i` to enter `Insert Mode`
 ```
 
 Press `esc`, and type `:wq` and press enter to save the file. Now you have to restart your virtual machine and end your SSH session:
-```bash
+```cli
 # service httpd restart
 # exit
 ```
