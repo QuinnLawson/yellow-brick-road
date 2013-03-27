@@ -6,9 +6,9 @@ The Yellow Brick Road
 Contents
 --------
 
-* [Technology]()
-* [Tools of The Trade]()
-* [Do It With Style]()
+* [Technology](technology.md)
+* [Tools of The Trade](tools.md)
+* [Do It With Style](style.md)
 
 Changelog
 ---------
