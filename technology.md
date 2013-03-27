@@ -24,7 +24,7 @@ Contents
 * [HTML5 Mobile Boilerplate](#html5mobile)
 * [Phonegap](#phonegap)
 
-**Previously Used**
+**Semi-Retired**
 * [CakePHP](#cakephp)
 * [CodeIgniter](#codeigniter)
 
@@ -101,7 +101,7 @@ Mobile
 <a id="phonegap"></a>Phonegap
 -----------------------------
 
-Previously Used
+Semi-Retired
 ===============
 
 <a id="cakephp"></a>CakePHP
