@@ -13,10 +13,13 @@ Contents
 * [Wordpress](#wordpress)
 * [Laravel](#laravel)
 
+**Version Control**
+* [GIT](#git)
+
 **Client-side**
 * [jQuery](#jquery)
-* [Bootstrap](#bootstrap)
 * [HTML5 Boilerplate](#html5boilerplate)
+* [Bootstrap](#bootstrap)
 
 **Mobile**
 * [jQMobi](#jqmobi)
@@ -35,6 +38,43 @@ Server
 
 <a id="lamp"></a>LAMP
 -----------------------------
+
+#### How We Use LAMP
+
+[LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle)) stands for **Linux, Apache, MySQL, PHP** and it is the technology stack that we use at rtraction. Developers each have their own LAMP installed on a CentOS VirtualBox that mimics the environment on our test and live servers.
+
+At rtraction your computer will come with LAMP already installed and configured.
+
+A common task developers have to do is add a virtual host to their Apache setup. To do this:
+
+Using your [Git Bash](#git), SSH into your virtual machine. replace `your-dev.address.com` with your dev URL or your  virtual machine's IP address.
+```bash
+$ ssh root@your-dev.address.com
+(enter your password)
+# vi /etc/httpd/conf/httpd.conf
+```
+
+Page down until you get to the end of the file. Press `i` to enter `Insert Mode` in `vi`. Add a virtual host by typing the following. Replace `/websites/mysite` with the folder location of your site. Replace `mysite-dev.com` with a new URL for your site.
+```xml
+<VirtualHost *:80>
+  DocumentRoot /websites/mysite
+  ServerName mysite-dev.com
+</VirtualHost>
+```
+
+Press `esc`, and type `:wq` and press enter to save the file. Now you have to restart your virtual machine and end your SSH session:
+```bash
+# service httpd restart
+# exit
+```
+
+On your Windows machine, open up `C:\windows\system32\drivers\etc\hosts` and add a line. Change `000.000.000.000` with your virtual machine's IP address, and `mysite-dev.com` with your site's new URL.
+```
+000.000.000.000 mysite-dev.com
+```
+
+Save the file. Your new URL will now point to your site!
+
 
 #### Install
 
@@ -57,10 +97,6 @@ To master LAMP, go through each of these tutorials.
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
 
-#### How We Use LAMP
-
-A little about our LAMP setup.
-
 <a id="drupal"></a>Drupal
 -----------------------------
 
@@ -69,6 +105,14 @@ A little about our LAMP setup.
 
 <a id="laravel"></a>Laravel
 -----------------------------
+
+
+
+Version Control
+===============
+
+<a id="git"></a>GIT
+-------------------
 
 
 
