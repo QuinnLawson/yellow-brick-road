@@ -75,30 +75,31 @@ On your Windows machine, open up `C:\windows\system32\drivers\etc\hosts` and add
 
 Save the file. Your new URL will now point to your site!
 
-##### Linux
-Essentials: 
+
+#### Linux
+##### Essentials
 * [The 5-Minute Essential Shell Tutorial](http://community.linuxmint.com/tutorial/view/100) - *30 minutes*
 
-Mastery:
+##### Mastery
 * [50 Most Frequently Used UNIX / Linux Commands (With Examples)](http://www.thegeekstuff.com/2010/11/50-linux-commands/) - *1 hour*
 
-##### Apache
+#### Apache
 
-Essentials:
+##### Essentials
 * [Essential Apache Tutorial](http://linuxzoo.net/page/tut_eapache.html) (ignore the tests) - *1 hour*
 * [The Ultimate Guide to .htaccess Files](http://net.tutsplus.com/tutorials/other/the-ultimate-guide-to-htaccess-files/) - *1 hour*
 
-Mastery:
+##### Mastery
 * [Apache Web Server Tutorial for Linux](http://www.xenocafe.com/tutorials/linux/centos/apache_web_server/index.php) - *2 hours*
 * [Apache Configuration Files](Configuration Files) - *2 hours*
 * [Apache HTTP Server Tutorial: .htaccess files](http://httpd.apache.org/docs/current/howto/htaccess.html) - *2 hours*
 * [THE Ultimate Htaccess](http://www.askapache.com/htaccess/htaccess.html) - *3 hours*
 
-##### MySQL
+#### MySQL
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
 
-##### PHP
+#### PHP
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
 
