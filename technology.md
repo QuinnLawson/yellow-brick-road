@@ -29,6 +29,7 @@ Contents
 * [CodeIgniter](#codeigniter)
 
 
+
 Server
 ======
 
@@ -56,6 +57,10 @@ To master LAMP, go through each of these tutorials.
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
 
+#### How We Use LAMP
+
+A little about our LAMP setup.
+
 <a id="drupal"></a>Drupal
 -----------------------------
 
@@ -64,6 +69,8 @@ To master LAMP, go through each of these tutorials.
 
 <a id="laravel"></a>Laravel
 -----------------------------
+
+
 
 Client-side
 ===========
@@ -76,6 +83,8 @@ Client-side
 
 <a id="html5boilerplate"></a>HTML5 Boilerplate
 -----------------------------
+
+
 
 Mobile
 ======
