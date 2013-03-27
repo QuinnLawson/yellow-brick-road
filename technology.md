@@ -39,7 +39,7 @@ Server
 <a id="lamp"></a>LAMP
 -----------------------------
 
-#### How We Use LAMP
+#### Common Server Tasks
 
 [LAMP](http://en.wikipedia.org/wiki/LAMP_(software_bundle) stands for **Linux, Apache, MySQL, PHP** and it is the technology stack that we use at rtraction. Developers each have their own LAMP installed on a CentOS VirtualBox that mimics the environment on our test and live servers.
 
@@ -76,26 +76,14 @@ On your Windows machine, open up `C:\windows\system32\drivers\etc\hosts` and add
 Save the file. Your new URL will now point to your site!
 
 
-#### Install
-
-These links teach you how to install LAMP:
-
-* [Link 1]() - 30 minutes
-* [Link 2]() - 15 minutes
-
-#### Get Started
-
-These links will give you enough knowledge to get started working with LAMP.
-
-* [Tutorial 1]() - 1 hour
-* [Tutorial 2]() - 2 hours
-
 #### Master
 
-To master LAMP, go through each of these tutorials.
+To master LAMP, check out these tutorials.
 
 * [Tutorial 1]() - 4 hours
 * [Article 1]() - 1 hour
+
+
 
 <a id="drupal"></a>Drupal
 -----------------------------
