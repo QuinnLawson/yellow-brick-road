@@ -86,6 +86,10 @@ Wordpress
 
 Laravel
 -------
+http://niallobrien.me/2013/03/installing-and-updating-laravel-4/
+http://four.laravel.com/
+http://chris-schmitz.com/getting-started-with-laravel-4/
+https://tutsplus.com/course/whats-new-in-laravel-4/
 
 
 
@@ -94,7 +98,12 @@ Version Control
 
 GIT
 ---
-
+http://learn.github.com/p/index.html
+Book: https://peepcode.com/products/git
+https://sandofsky.com/blog/git-workflow.html
+http://nvie.com/posts/a-successful-git-branching-model/
+http://www.pyladies.com/blog/how-I-learned-to-love-rebase/
+http://blog.izs.me/post/37650663670/git-rebase
 
 
 Client-side
@@ -103,6 +112,14 @@ Client-side
 Javascript
 ----------
 [QUnit](http://qunitjs.com/)
+http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/
+http://www.phpunit.de/manual/3.7/en/automating-tests.html
+Book: https://leanpub.com/grumpy-testing
+https://leanpub.com/grumpy-phpunit
+
+http://javascriptissexy.com/how-to-learn-javascript-properly/
+http://javascriptissexy.com/learn-intermediate-and-advanced-javascript/
+http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
 
 jQuery
 ------
