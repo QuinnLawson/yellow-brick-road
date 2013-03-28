@@ -45,35 +45,7 @@ Server
 
 At rtraction your computer will come with LAMP already installed and configured.
 
-A common task developers have to do is add a virtual host to their Apache setup. To do this:
-
-Using your [Git Bash](#git), SSH into your virtual machine (replacing `your-dev.address.com` with your dev URL or your  virtual machine's IP address).
-```cli
-$ ssh root@your-dev.address.com
-(enter your password)
-# vi /etc/httpd/conf/httpd.conf
-```
-
-Page down until you get to the end of the file. Press `i` to enter `Insert Mode` in `vi`. Add a virtual host by typing the following. Replace `/websites/mysite` with the folder location of your site. Replace `mysite-dev.com` with a new URL for your site.
-```xml
-<VirtualHost *:80>
-  DocumentRoot /websites/mysite
-  ServerName mysite-dev.com
-</VirtualHost>
-```
-
-Press `esc`, and type `:wq` and press enter to save the file. Now you have to restart your virtual machine and end your SSH session:
-```cli
-# service httpd restart
-# exit
-```
-
-On your Windows machine, open up `C:\windows\system32\drivers\etc\hosts` and add a line. Change `000.000.000.000` with your virtual machine's IP address, and `mysite-dev.com` with your site's new URL.
-```
-000.000.000.000 mysite-dev.com
-```
-
-Save the file. Your new URL will now point to your site!
+* [Adding a VirtualHost](https://github.com/rtraction/yellow-brick-road/wiki/Adding-a-VirtualHost)
 
 
 #### Linux
