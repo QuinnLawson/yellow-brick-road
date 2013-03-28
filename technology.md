@@ -28,6 +28,12 @@ Contents
 * [HTML5 Mobile Boilerplate](#html5-mobile-boilerplate)
 * [Phonegap](#phonegap)
 
+**Testing**
+* [QUnit](#qunit)
+* [PHPUnit](#phpunit)
+* [Selenium](#selenium)
+
+
 **Semi-Retired**
 * [CakePHP](#cakephp)
 * [CodeIgniter](#codeigniter)
@@ -102,12 +108,16 @@ Version Control
 
 GIT
 ---
-http://learn.github.com/p/index.html
-Book: https://peepcode.com/products/git
-https://sandofsky.com/blog/git-workflow.html
-http://nvie.com/posts/a-successful-git-branching-model/
-http://www.pyladies.com/blog/how-I-learned-to-love-rebase/
-http://blog.izs.me/post/37650663670/git-rebase
+Essentials
+* `Tutorial` [Try Git](http://www.codeschool.com/courses/try-git) - *15 minutes*
+* [Introduction To Git](http://learn.github.com/p/index.html) - *20 minutes*
+* [git-rebase](http://blog.izs.me/post/37650663670/git-rebase) - *1 hour*
+* [How I Learned To StopP Worrying and Love Rebase](http://www.pyladies.com/blog/how-I-learned-to-love-rebase/) - *30 minutes*
+
+Mastery:
+* `Book` [Git](https://peepcode.com/products/git)
+* [Understanding the Git Workflow](https://sandofsky.com/blog/git-workflow.html) - *30 minutes*
+* [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/) - *1 hour*
 
 
 Client-side
@@ -115,15 +125,10 @@ Client-side
 
 Javascript
 ----------
-[QUnit](http://qunitjs.com/)
-http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/
-http://www.phpunit.de/manual/3.7/en/automating-tests.html
-Book: https://leanpub.com/grumpy-testing
-https://leanpub.com/grumpy-phpunit
-
 http://javascriptissexy.com/how-to-learn-javascript-properly/
 http://javascriptissexy.com/learn-intermediate-and-advanced-javascript/
 http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
+
 
 jQuery
 ------
@@ -152,6 +157,28 @@ HTML5 Mobile Boilerplate
 
 Phonegap
 --------
+
+Testing
+=======
+
+QUnit
+-----
+
+Essentials:
+* [Introduction To JavaScript Unit Testing](http://coding.smashingmagazine.com/2012/06/27/introduction-to-javascript-unit-testing/)
+* `Reference` [QUnit](http://qunitjs.com/)
+
+
+PHPUnit
+-------
+* http://www.sitepoint.com/tutorial-introduction-to-unit-testing-in-php-with-phpunit/
+* http://www.phpunit.de/manual/3.7/en/automating-tests.html
+* https://leanpub.com/grumpy-phpunit
+* `Book` [The Grumpy Programmer's Guide To Building Testable PHP Applications](https://leanpub.com/grumpy-testing)
+
+Selenium
+--------
+
 
 Semi-Retired
 ===============
