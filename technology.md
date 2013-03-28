@@ -86,11 +86,15 @@ Wordpress
 
 Laravel
 -------
-http://niallobrien.me/2013/03/installing-and-updating-laravel-4/
-http://four.laravel.com/
-http://chris-schmitz.com/getting-started-with-laravel-4/
-https://tutsplus.com/course/whats-new-in-laravel-4/
+Install & Setup:
+* [Installing and updating Laravel 4](http://niallobrien.me/2013/03/installing-and-updating-laravel-4/) - *5 minutes*
+* [Getting Started With Laravel 4](http://chris-schmitz.com/getting-started-with-laravel-4/) - *10 minutes*
 
+Essentials:
+* `Video Series` [What's New in Laravel 4](https://tutsplus.com/course/whats-new-in-laravel-4/) - *5 hours*
+
+Mastery:
+* `Reference` [Laravel Documentation](http://four.laravel.com/)
 
 
 Version Control
