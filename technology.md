@@ -17,26 +17,27 @@ Contents
 * [GIT](#git)
 
 **Client-side**
+* [Javascript](#javascript)
 * [jQuery](#jquery)
-* [HTML5 Boilerplate](#html5boilerplate)
+* [HTML5 Boilerplate](#html5-boilerplate)
 * [Bootstrap](#bootstrap)
 
 **Mobile**
 * [jQMobi](#jqmobi)
-* [320 And Up](#320andup)
-* [HTML5 Mobile Boilerplate](#html5mobile)
+* [320 And Up](#320-and-up)
+* [HTML5 Mobile Boilerplate](#html5-mobile-boilerplate)
 * [Phonegap](#phonegap)
 
 **Semi-Retired**
 * [CakePHP](#cakephp)
 * [CodeIgniter](#codeigniter)
 
-
+**[The Future](#the-future)**
 
 Server
 ======
 
-<a id="lamp"></a>LAMP
+LAMP
 -----------------------------
 
 #### Common Server Tasks
@@ -77,63 +78,75 @@ Mastery:
 * [Article 1]() - 1 hour
 
 
-<a id="drupal"></a>Drupal
------------------------------
+Drupal
+------
 
-<a id="wordpress"></a>Wordpress
------------------------------
+Wordpress
+---------
 
-<a id="laravel"></a>Laravel
------------------------------
+Laravel
+-------
 
 
 
 Version Control
 ===============
 
-<a id="git"></a>GIT
--------------------
+GIT
+---
 
 
 
 Client-side
 ===========
 
-<a id="jquery"></a>jQuery
------------------------------
+Javascript
+----------
+[QUnit](http://qunitjs.com/)
 
-<a id="bootstrap"></a>Bootstrap
------------------------------
+jQuery
+------
+[SuperHeroJS](superherojs.com)
 
-<a id="html5boilerplate"></a>HTML5 Boilerplate
------------------------------
+Bootstrap
+---------
+
+HTML5 Boilerplate
+-----------------
 [Chrome DevTools](http://discover-devtools.codeschool.com/)
-
+[Browser Diet](http://browserdiet.com/)
 
 
 Mobile
 ======
 
-<a id="jqmobi"></a>jQMobi
------------------------------
+jQMobi
+-------
 
-<a id="320andup"></a>320 And Up
------------------------------
+320 And Up
+----------
 
-<a id="html5mobile"></a>HTML5 Mobile Boilerplate
------------------------------
+HTML5 Mobile Boilerplate
+------------------------
 
-<a id="phonegap"></a>Phonegap
------------------------------
+Phonegap
+--------
 
 Semi-Retired
 ===============
 
-<a id="cakephp"></a>CakePHP
----------------------------
+CakePHP
+-------
 
-<a id="codeigniter"></a>CodeIgniter
------------------------------
+CodeIgniter
+-----------
 
+The Future
+==========
 
+This document goes into review every 6 months. At that point we evaluate the technologies we use and replace them with new technologies that will help us to be more productive, efficient and awesome. Here are a few things we may consider implementing in the future.
+
+* [GruntJS]()
+* [Sass]() or [Less]()
+* [Compass]()
 
