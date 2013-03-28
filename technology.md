@@ -45,7 +45,7 @@ Server
 
 At rtraction your computer will come with LAMP already installed and configured.
 
-* [Adding a VirtualHost](https://github.com/rtraction/yellow-brick-road/wiki/Adding-a-VirtualHost)
+* [Adding a VirtualHost](https://github.com/rtraction/yellow-brick-road/wiki/Adding-a-VirtualHost) - *30 minutes*
 
 
 #### Linux
