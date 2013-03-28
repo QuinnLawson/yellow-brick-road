@@ -135,6 +135,7 @@ Client-side
 
 <a id="html5boilerplate"></a>HTML5 Boilerplate
 -----------------------------
+[Chrome DevTools](http://discover-devtools.codeschool.com/)
 
 
 
