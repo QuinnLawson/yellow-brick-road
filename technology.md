@@ -101,6 +101,9 @@ Essentials:
 
 Mastery:
 * `Reference` [Laravel Documentation](http://four.laravel.com/)
+* `Video Series` [Inversion of Control](http://phpmaster.com/inversion-of-control-the-hollywood-principle/)
+* [IoC part1](http://vimeo.com/album/2157913/video/53009943)
+* [IoC part2](http://vimeo.com/album/2157913/video/53029232)
 
 
 Version Control
