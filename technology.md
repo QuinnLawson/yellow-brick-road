@@ -195,10 +195,16 @@ CodeIgniter
 The Future
 ==========
 
-This document goes into review every 6 months. At that point we evaluate the technologies we use and replace them with new technologies that will help us to be more productive, efficient and awesome. Here are a few things we may consider implementing in the future.
+This document goes into review every 6 months. At that point we evaluate the technologies we use and replace them with new technologies that will help us to be more productive, efficient and awesome. Here are a few things we may consider implementing in the future if they evaluate well.
 
 * [GruntJS]()
 * [Sass]() or [Less]()
 * [Compass]()
 * [Foundation](http://foundation.zurb.com/templates.php)
 
+##Evaluating New Technologies
+
+* Does it have favourable peer reviews?
+* Does it appear to be better than how we do things now?
+* Is it open source? How active is the developer community? How fresh vs. stable is the code base?
+* Does it work in IE8? We are some of the few who still care. (Bootstrap sliders, for example, does not work in IE8)
