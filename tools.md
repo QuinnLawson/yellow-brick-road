@@ -1,3 +1,14 @@
+Technology
+==========
+
+> fancy quote goes here
+> - *[Gavin Blair](https://en.wikipedia.org/wiki/Rasmus_Lerdorf)*
+
+Contents
+--------
+
+* [git](#git)
+
 git
 ===
 branching: work from master on a new project *ducks*
