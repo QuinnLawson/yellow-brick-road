@@ -80,8 +80,8 @@ Mastery:
 * [Article 1]() - 1 hour
 
 #### PHP
-* [Tutorial 1]() - 4 hours
-* [Article 1]() - 1 hour
+* [PHP The Right Way](http://www.phptherightway.com/) - *__ minutes*
+
 
 
 Drupal
