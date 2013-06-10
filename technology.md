@@ -93,6 +93,7 @@ Wordpress
 Laravel
 -------
 Install & Setup:
+* [Quick Start](http://laravel.com/docs/quick) - *__ minutes*
 * [Installing and updating Laravel 4](http://niallobrien.me/2013/03/installing-and-updating-laravel-4/) - *5 minutes*
 * [Getting Started With Laravel 4](http://chris-schmitz.com/getting-started-with-laravel-4/) - *10 minutes*
 
