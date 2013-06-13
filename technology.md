@@ -93,18 +93,47 @@ Wordpress
 Laravel
 -------
 Install & Setup:
-* [Quick Start](http://laravel.com/docs/quick) - *__ minutes*
-* [Installing and updating Laravel 4](http://niallobrien.me/2013/03/installing-and-updating-laravel-4/) - *5 minutes*
+* `Documentation` [Quick Start](http://laravel.com/docs/quick)
 * [Getting Started With Laravel 4](http://chris-schmitz.com/getting-started-with-laravel-4/) - *10 minutes*
+* [Intro to Composer](http://getcomposer.org/doc/01-basic-usage.md) - *20 minutes*
 
 Essentials:
+* [Required Reading](http://www.thenerdary.net/post/30859565484/laravel-4) - *7 minutes*
+* `Documentation` [Request Lifecycle](http://four.laravel.com/docs/lifecycle)
 * `Video Series` [What's New in Laravel 4](https://tutsplus.com/course/whats-new-in-laravel-4/) - *5 hours*
+* [Inversion of Control - The Hollywood Principle](http://phpmaster.com/inversion-of-control-the-hollywood-principle/) - *1 hour*
+* [The IoC Container](http://codehappy.daylerees.com/ioc-container) - *4 minutes*
+* `Video` [IoC part1](http://vimeo.com/album/2157913/video/53009943) - *7 minutes*
+* `Video` [IoC part2](http://vimeo.com/album/2157913/video/53029232) - *9 minutes*
+* `Documentation` [IoC Container](http://laravel.com/docs/ioc)
+* [Laravel 4 Application Setup: App library, Autoloading, Binding](http://fideloper.com/laravel-4-application-setup-app-library-autoloading) - *10 minutes*
+* [Laravel 4: Where to put bindings](http://fideloper.com/laravel-4-where-to-put-bindings) - *15 minutes*
+
+WWW Development Essentials:
+* [Authentication](http://codehappy.daylerees.com/authentication) - *7 minutes*
+* `Video` [Validating With Models and Event Listeners](https://tutsplus.com/lesson/validating-with-models-and-event-listeners/) - *8 minutes*
+* `Video` [Error Handling](http://vimeo.com/album/2157913/video/53445935) - *7 minutes*
+
+API Development Essentials:
+* `Code` [Example API](https://github.com/fideloper/l4-api)
+* `Video` [Simple API Development With Laravel](http://laracasts.com/video/simple-api-development-with-laravel) - *37 minutes*
+* [Laravel 4: Where to put bindings](http://fideloper.com/laravel-4-where-to-put-bindings) - *10 minutes*
+* `Documentation` [Events](http://four.laravel.com/docs/events)
+* [Using Laravel 4's Model Events](http://driesvints.com/blog/using-laravel-4-model-events/) - *10 minutes*
+* `Video` [Eloquent Collections & Polymorphic Relations](http://vimeo.com/album/2157913/video/53183075) - *12 minutes*
+* `Video` [Migrations & Seeding](http://vimeo.com/album/2157913/video/53701204) - *9 minutes*
+* `Documentation` [HTTP Exceptions](http://four.laravel.com/docs/errors#http-exceptions)
+* `Documentation` [Handling 404 Errors](http://four.laravel.com/docs/errors#handling-404-errors)
+* `Documentation` [Throwing 404 Errors](http://four.laravel.com/docs/routing#throwing-404-errors)
+* `Code` [Symfony HttpKernel Exception](https://github.com/symfony/symfony/tree/master/src/Symfony/Component/HttpKernel/Exception)
+* [Error Handling with Content Negotiation](http://fideloper.com/error-handling-with-content-negotiation) - *10 minutes*
+* [The Serializer Component](http://symfony.com/doc/master/components/serializer.html) - *10 minutes*
 
 Mastery:
-* `Reference` [Laravel Documentation](http://four.laravel.com/)
-* `Video Series` [Inversion of Control](http://phpmaster.com/inversion-of-control-the-hollywood-principle/)
-* [IoC part1](http://vimeo.com/album/2157913/video/53009943)
-* [IoC part2](http://vimeo.com/album/2157913/video/53029232)
+* `Documentation` [Laravel Documentation](http://laravel.com/docs)
+* `Video Series` [Laravel 4 Mastery](http://net.tutsplus.com/tutorials/php/laravel-4-mastery/) - *3 hours* `Note: Two of these videos require a Tuts+ Premium membership`
+* [Laravel 4: Develop Packages Using The Workbench](http://jasonlewis.me/article/laravel-4-develop-packages-using-the-workbench) - *30 minutes*
+* `Video` [Better Testing In Laravel 4](http://laracasts.com/video/better-testing-in-laravel-4) - *48 minutes*
 
 
 Version Control
