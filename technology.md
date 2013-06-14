@@ -108,6 +108,15 @@ Mastery: *Required Reading for creating a Drupal theme and/or module*
 Wordpress
 ---------
 
+Install & Setup:
+
+
+Essentials: *Required Reading for maintaining a Wordpress site*
+
+
+Mastery: *Required Reading for creating a Wordpress theme and/or plugin*
+* [How to Build a Custom WordPress Theme from Scratch](http://blog.spoongraphics.co.uk/tutorials/how-to-build-a-custom-wordpress-theme-from-scratch) - *1 hour*
+
 Laravel
 -------
 Install & Setup:
