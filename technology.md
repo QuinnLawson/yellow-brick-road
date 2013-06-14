@@ -128,11 +128,10 @@ Install & Setup:
 Essentials:
 * [Required Reading](http://www.thenerdary.net/post/30859565484/laravel-4) - *7 minutes*
 * `Documentation` [Request Lifecycle](http://four.laravel.com/docs/lifecycle)
-* `Video Series` [What's New in Laravel 4](https://tutsplus.com/course/whats-new-in-laravel-4/) - *5 hours*
 * `Documentation` [Routing](http://four.laravel.com/docs/routing)
 * `Documentation` [Controllers](http://four.laravel.com/docs/controllers)
 * `Documentation` [Views & Responses](http://four.laravel.com/docs/responses)
-* [Inversion of Control - The Hollywood Principle](http://phpmaster.com/inversion-of-control-the-hollywood-principle/) - *1 hour*
+* [Inversion of Control - The Hollywood Principle](http://phpmaster.com/inversion-of-control-the-hollywood-principle/) - *15 minutes*
 * [The IoC Container](http://codehappy.daylerees.com/ioc-container) - *4 minutes*
 * `Video` [IoC part1](http://vimeo.com/album/2157913/video/53009943) - *7 minutes*
 * `Video` [IoC part2](http://vimeo.com/album/2157913/video/53029232) - *9 minutes*
