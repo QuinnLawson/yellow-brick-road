@@ -76,12 +76,13 @@ Mastery:
 * [THE Ultimate Htaccess](http://www.askapache.com/htaccess/htaccess.html) - *3 hours*
 
 #### MySQL
-* [Tutorial 1]() - 4 hours
-* [Article 1]() - 1 hour
+* `Video Series` [MySQL Tutorials](http://www.youtube.com/playlist?list=PL9352E58884CD2B38) - *1.5 hours*
 
 #### PHP
 * [PHP The Right Way](http://www.phptherightway.com/) - *__ minutes*
-
+* `Video Series` [PHP Beginner Tutorials](http://www.youtube.com/playlist?list=PL01C68F7D697AC80A) - *3 hours*
+* `Video Series` [PHP Random Tutorials](http://www.youtube.com/playlist?list=PL7D320931EF4B0F70) - *1.5 hours*
+* `Video Series` [PHP OOP Tutorials](http://www.youtube.com/playlist?list=PL75B9D91CD69ED950) - *11 hours*
 
 
 Drupal
@@ -94,12 +95,14 @@ Essentials: *Required Reading for maintaining a Drupal site*
 * `Documentation` [Site Building Guide](https://drupal.org/documentation/build)
 * `Documentation` [Understanding Drupal](https://drupal.org/documentation/understand)
 * `Documentation` [Structure Guide](https://drupal.org/documentation/structure)
+* `Video Series` [Drupal 7 Tutorials](http://www.youtube.com/playlist?list=PL059C6B76140E4FD0) - *1 hour*
 
 Mastery: *Required Reading for creating a Drupal theme and/or module*
 * `Requirements` [PHP](#php), [MySQL](#mysql), [jQuery](#jquery)
 * `Documentation` [Theming Guide](https://drupal.org/documentation/theme)
 * `Video` [How To Theme A Website in Drupal 7 Tutorial (Part 1 of 2)](http://www.youtube.com/watch?v=Lc2c4bHHRZg) - *2 hours*
 * `Video` [How To Theme A Website in Drupal 7 Tutorial (Part 2 of 2)](http://www.youtube.com/watch?v=NXSvgiws7W0) - *1.5 hours*
+* `Documentation` [Creating modules - a tutorial: Drupal 7.x](https://drupal.org/node/1074360)
 
 
 Wordpress
@@ -174,37 +177,37 @@ Mastery:
 Client-side
 ===========
 
+CSS
+---
+* `Video Series` [CSS Tutorials](http://www.youtube.com/playlist?list=PL5B5F3470240D0AD0) - *2 hours*
+
 Javascript
 ----------
 http://javascriptissexy.com/how-to-learn-javascript-properly/
 http://javascriptissexy.com/learn-intermediate-and-advanced-javascript/
 http://javascriptissexy.com/oop-in-javascript-what-you-need-to-know/
-
+* `Video Series` [Javascript Tutorials](http://www.youtube.com/playlist?list=PLC585075FF002B2C9) - *1.5 hours*
+* `Video Series` [jQuery Tutorials](http://www.youtube.com/playlist?list=PL964151ECABC96679) - *4 hours*
 
 jQuery
 ------
 [SuperHeroJS](superherojs.com)
 
-Bootstrap
----------
-
-HTML5 Boilerplate
------------------
+HTML5
+-----
 [Chrome DevTools](http://discover-devtools.codeschool.com/)
 [Browser Diet](http://browserdiet.com/)
+Boilerplate
+Bootstrap
+320 And Up
+* `Video Series` [HTML5 Tutorials](http://www.youtube.com/playlist?list=PL2CA18A57B9F11A61) - *30 minutes*
 
 
-Mobile
-======
+Apps
+====
 
 jQMobi
--------
-
-320 And Up
-----------
-
-HTML5 Mobile Boilerplate
-------------------------
+------
 
 Phonegap
 --------
