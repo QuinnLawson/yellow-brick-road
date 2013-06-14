@@ -96,7 +96,7 @@ Essentials: *Required Reading for maintaining a Drupal site*
 * `Documentation` [Structure Guide](https://drupal.org/documentation/structure)
 
 Mastery: *Required Reading for creating a Drupal theme and/or module*
-* `Requirements` [PHP](#PHP), [MySQL](#MySQL), [jQuery][#jQuery]
+* `Requirements` [PHP](#php), [MySQL](#mysql), [jQuery](#jquery)
 * `Documentation` [Theming Guide](https://drupal.org/documentation/theme)
 * `Video` [How To Theme A Website in Drupal 7 Tutorial (Part 1 of 2)](http://www.youtube.com/watch?v=Lc2c4bHHRZg) - *2 hours*
 * `Video` [How To Theme A Website in Drupal 7 Tutorial (Part 2 of 2)](http://www.youtube.com/watch?v=NXSvgiws7W0) - *1.5 hours*
