@@ -22,3 +22,7 @@ Chrome Dev Tools
 Adobe Photoshop
 ===============
 * `Video Series` [Adobe Photoshop CS5 Tutorials](http://www.youtube.com/playlist?list=PL7511C3510A66EA4E) - *2 hours*
+
+Sublime Text
+===============
+* `Reference` [Windows Keyboard Shortcuts](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html) - *30 minutes*
