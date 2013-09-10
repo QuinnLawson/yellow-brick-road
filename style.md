@@ -13,6 +13,8 @@ CSS
 ===
 don't target id's if you can help it
 
+one line per property, not selector (bc git)
+
 JS
 ==
 single quotes
