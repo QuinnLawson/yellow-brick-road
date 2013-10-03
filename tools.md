@@ -26,3 +26,8 @@ Adobe Photoshop
 Sublime Text
 ===============
 * `Reference` [Windows Keyboard Shortcuts](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html) - *30 minutes*
+
+GruntJS
+=======
+
+* `Tutorial` [GruntJS and Your Wordpress/Drupal Theme](https://github.com/rtraction/yellow-brick-road/wiki/GruntJS-and-Your-Wordpress-Drupal-Theme)
