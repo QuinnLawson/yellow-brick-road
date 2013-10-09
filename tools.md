@@ -31,3 +31,13 @@ GruntJS
 =======
 
 * `Tutorial` [GruntJS and Your Wordpress/Drupal Theme](https://github.com/rtraction/yellow-brick-road/wiki/GruntJS-and-Your-Wordpress-Drupal-Theme)
+
+OSX
+===
+
+* `Tutorial` [Hack Attack: A guide for switching to a Mac](http://lifehacker.com/224674/hack-attack-a-guide-for-switching-to-a-mac) - *30 minutes*
+
+Misc. Other Tools
+=================
+
+* `Utility` Clipboard Managers: [Clyppan (Mac)](http://www.omh.cc/Clyppan-Clipboard-Manager-for-the-Mac/), [Ditto (Windows)](http://ditto-cp.sourceforge.net/)
