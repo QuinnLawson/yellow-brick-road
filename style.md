@@ -21,6 +21,8 @@ one line per property, not selector (easier git conflicts)
 
 many files!
 
+lint it!
+
 [adopt/adapt this](https://github.com/rtraction/html-css-code-guide)
 
 JS
