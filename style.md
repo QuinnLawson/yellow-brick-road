@@ -29,6 +29,10 @@ always do semicolons!
 
 many files!
 
+build it with grunt!
+
+lint it!
+
 minified+combined
 
 little to no markup
