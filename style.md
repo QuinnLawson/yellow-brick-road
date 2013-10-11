@@ -19,6 +19,8 @@ don't target id's if you can help it
 
 one line per property, not selector (easier git conflicts)
 
+many files!
+
 [adopt/adapt this](https://github.com/rtraction/html-css-code-guide)
 
 JS
