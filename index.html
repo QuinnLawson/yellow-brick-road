@@ -122,14 +122,10 @@ layout: default
 		<h3>Attribute order</h3>
 		<p>HTML attributes should come in this particular order for easier reading of code.</p>
 		<ul>
-			<li><code>class</code></li>
 			<li><code>id</code>, <code>name</code></li>
-			<li><code>data-*</code></li>
-			<li><code>src</code>, <code>for</code>, <code>type</code>, <code>href</code></li>
-			<li><code>title</code>, <code>alt</code></li>
-			<li><code>aria-*</code>, <code>role</code></li>
+			<li><code>class</code></li>
+			<li>everything else</li>
 		</ul>
-		<p>Classes make for great reusable components, so they come first. Ids are more specific and should be used sparingly (e.g., for in-page bookmarks), so they come second.</p>
 	</div>
 	<div class="col">
 		{% highlight html %}{% include html/attribute-order.html %}{% endhighlight %}
@@ -166,6 +162,15 @@ layout: default
 	<div class="col">
 		<h3>JavaScript generated markup</h3>
 		<p>Writing markup in a JavaScript file makes the content harder to find, harder to edit, and less performant. Avoid it whenever possible.</p>
+	</div>
+</div>
+<div class="section" id="html-comments">
+	<div class="col">
+		<h3>Commenting</h3>
+		<p>Put your comments in PHP code if you must include comments in your HTML.</p>
+	</div>
+	<div class="col">
+		{% highlight html %}{% include html/comments.html %}{% endhighlight %}
 	</div>
 </div>
 <div class="heading" id="css">
