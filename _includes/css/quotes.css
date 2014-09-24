@@ -1,0 +1,8 @@
+/* Right: */
+background-image: url("/img/you.jpg");
+font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+
+
+/* Wrong: */
+background-image: url(/img/you.jpg);
+font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, Arial;

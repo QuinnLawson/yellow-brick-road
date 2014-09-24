@@ -1,0 +1,16 @@
+/* Right: */
+.content,
+.content-edit {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+.tweet-edit {
+  padding: 0;
+}
+
+/* Wrong: */
+.content, .content-edit {
+  padding: 15px; margin-bottom: 15px;
+}
+
+.tweet-edit { padding: 0px; }
