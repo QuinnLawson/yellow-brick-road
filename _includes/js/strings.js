@@ -1,11 +1,11 @@
 // bad
-var name = "Bob Parr";
+var name = "Han Solo";
 
 // good
-var name = 'Bob Parr';
+var name = 'Han Solo';
 
 // bad
-var fullName = "Bob " + this.lastName;
+var fullName = "Han " + this.lastName;
 
 // good
-var fullName = 'Bob ' + this.lastName;
+var fullName = 'Han ' + this.lastName;
