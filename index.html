@@ -13,37 +13,41 @@ layout: default
 		<ul>
 			<li><a href="#html-syntax">Syntax</a></li>
 			<li><a href="#html-doctype">HTML5 doctype</a></li>
-			<li><a href="#html-lang">Language attribute</a></li>
-			<li><a href="#html-encoding">Character encoding</a></li>
-			<li><a href="#html-ie-compatibility-mode">Internet Explorer compatibility mode</a></li>
 			<li><a href="#html-style-script">CSS and JavaScript includes</a></li>
 			<li><a href="#html-practicality">Practicality over purity</a></li>
 			<li><a href="#html-attribute-order">Attribute order</a></li>
 			<li><a href="#html-boolean-attributes">Boolean attributes</a></li>
 			<li><a href="#html-reducing-markup">Reducing markup</a></li>
 			<li><a href="#html-javascript">JavaScript generated markup</a></li>
+			<li><a href="#html-comments">Commenting</a></li>
 		</ul>
-	</div>
-	<div class="col">
+		<br />
 		<h4><span class='char char-scarecrow'></span> <a href="#css">CSS</a></h4>
 		<ul>
 			<li><a href="#css-syntax">CSS syntax</a></li>
-			<li><a href="#css-declaration-order">Declaration order</a></li>
-			<li><a href="#css-import">Don't use @import</a></li>
-			<li><a href="#css-media-queries">Media query placement</a></li>
-			<li><a href="#css-prefixed-properties">Prefixed properties</a></li>
-			<li><a href="#css-single-declarations">Rules with single declarations</a></li>
-			<li><a href="#css-shorthand">Shorthand notation</a></li>
-			<li><a href="#css-nesting">Nesting in Less and Sass</a></li>
-			<li><a href="#css-comments">Comments</a></li>
-			<li><a href="#css-classes">Classes</a></li>
-			<li><a href="#css-selectors">Selectors</a></li>
-			<li><a href="#css-organization">Organization</a></li>
+			<li><a href="#css-javascript">Javascript Classes</a></li>
+			<li><a href="#css-quotes">Quotes</a></li>
 		</ul>
 	</div>
 	<div class="col">
 		<h4><span class='char char-dorothy'></span> <a href="#javascript">Javascript</a></h4>
 		<ul>
+			<li><a href="#js-syntax">Syntax</a></li>
+			<li><a href="#js-object-creation">Object and Array Creation</a></li>
+			<li><a href="#js-reserved">Reserved Words</a></li>
+			<li><a href="#js-push">Pushing to an Array</a></li>
+			<li><a href="#js-slice">Copying Arrays</a></li>
+			<li><a href="#js-strings">Strings</a></li>
+			<li><a href="#js-string-join">Joining Strings</a></li>
+			<li><a href="#js-functions">Functions</a></li>
+			<li><a href="#js-arguments">Arguments</a></li>
+			<li><a href="#js-properties">Properties</a></li>
+			<li><a href="#js-variables">Variables</a></li>
+			<li><a href="#js-multiple-variables">Declaring Multiple Variables</a></li>
+			<li><a href="#js-unassigned-variables">Declaring Unassigned Variables</a></li>
+			<li><a href="#js-where-variables">Where to Declare Variables</a></li>
+			<li><a href="#js-hoisting">Hoisting</a></li>
+			<li><a href="#js-equality">Conditional Expressions & Equality</a></li>
 		</ul>
 	</div>
 	<div class="col">
@@ -58,7 +62,7 @@ layout: default
 <div class="section" id="golden-rule">
 	<div class="col">
 		<h2>Golden rule</h2>
-		<p>Enforce these agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/mdo/code-guide/issues/new">open an issue on GitHub</a>.</p>
+		<p>Enforce these agreed upon guidelines at all times. Small or large, call out what's incorrect. For additions or contributions to this Code Guide, please <a href="https://github.com/rtraction/yellow-brick-road/issues/new">open an issue on GitHub</a>.</p>
 	</div>
 	<div class="col">
 		<blockquote>
@@ -69,7 +73,7 @@ layout: default
 <div class="heading" id="html">
 	<h2><span class='char char-lion'></span> HTML</h2>
 	<blockquote>
-		<p>I do, I do, I do, I *do* believe in symantic markup!</p>
+		<p>I do, I do, I do, I *do* believe in <strong>symantic markup</strong>!</p>
 	</blockquote>
 </div>
 <div class="section" id="html-syntax">
@@ -176,206 +180,330 @@ layout: default
 <div class="heading" id="css">
 	<h2><span class='char char-scarecrow'></span> CSS</h2>
 	<blockquote>
-		<p>I haven't got a brain... only style.</p>
+		<p>I haven't got a brain... only <strong>style</strong>.</p>
 	</blockquote>
 </div>
 <div class="section" id="css-syntax">
 	<div class="col">
 		<h3>Syntax</h3>
 		<ul>
-			<li>Use soft tabs with two spaces—they're the only way to guarantee code renders the same in any environment.</li>
+			<li>Use actual tab characters.</li>
 			<li>When grouping selectors, keep individual selectors to a single line.</li>
-			<li>Include one space before the opening brace of declaration blocks for legibility.</li>
-			<li>Place closing braces of declaration blocks on a new line.</li>
-			<li>Include one space after <code>:</code> for each declaration.</li>
-			<li>Each declaration should appear on its own line for more accurate error reporting.</li>
-			<li>End all declarations with a semi-colon. The last declaration's is optional, but your code is more error prone without it.</li>
-			<li>Comma-separated property values should include a space after each comma (e.g., <code>box-shadow</code>).</li>
-			<li>Don't include spaces after commas <em>within</em> <code>rgb()</code>, <code>rgba()</code>, <code>hsl()</code>, <code>hsla()</code>, or <code>rect()</code> values. This helps differentiate multiple color values (comma, no space) from multiple property values (comma with space).</li>
-			<li>Don't prefix property values or color parameters with a leading zero (e.g., <code>.5</code> instead of <code>0.5</code> and <code>-.5px</code> instead of <code>-0.5px</code>).</li>
-			<li>Lowercase all hex values, e.g., <code>#fff</code>. Lowercase letters are much easier to discern when scanning a document as they tend to have more unique shapes.</li>
-			<li>Use shorthand hex values where available, e.g., <code>#fff</code> instead of <code>#ffffff</code>.</li>
-			<li>Quote attribute values in selectors, e.g., <code>input[type="text"]</code>. <a href="http://mathiasbynens.be/notes/unquoted-attribute-values#css">They’re only optional in some cases</a>, and it’s a good practice for consistency.</li>
+			<li>CSS rules should be comma seperated but live on new lines.</li>
+			<li>CSS blocks should be seperated by a single new line. not two. not 0.</li>
 			<li>Avoid specifying units for zero values, e.g., <code>margin: 0;</code> instead of <code>margin: 0px;</code>.</li>
 		</ul>
-		<p>Questions on the terms used here? See the <a href="http://en.wikipedia.org/wiki/Cascading_Style_Sheets#Syntax">syntax section of the Cascading Style Sheets article</a> on Wikipedia.</p>
 	</div>
 	<div class="col">
 		{% highlight css %}{% include css/syntax.css %}{% endhighlight %}
 	</div>
 </div>
-<div class="section" id="css-declaration-order">
+<div class="section" id="css-javascript">
 	<div class="col">
-		<h3>Declaration order</h3>
-		<p>Related property declarations should be grouped together following the order:</p>
-		<ol>
-			<li>Positioning</li>
-			<li>Box model</li>
-			<li>Typographic</li>
-			<li>Visual</li>
-		</ol>
-		<p>Positioning comes first because it can remove an element from the normal flow of the document and override box model related styles. The box model comes next as it dictates a component's dimensions and placement.</p>
-		<p>Everything else takes place <em>inside</em> the component or without impacting the previous two sections, and thus they come last.</p>
-		<p>For a complete list of properties and their order, please see <a href="http://twitter.github.com/recess">Recess</a>.</p>
+		<h3>Javascript Classes</h3>
+		<p>
+			syntax: <code>js-&lt;targetName&gt;</code>
+		</p>
+		<p>
+			JavaScript-specific classes reduce the risk that changing the structure or theme of components will inadvertently affect any required JavaScript behaviour and complex functionality. It is not neccesarry to use them in every case, just think of them as a tool in your utility belt. If you are creating a class, which you dont intend to use for styling, but instead only as a selector in JavaScript, you should probably be adding the <code>js-</code> prefix.
+		</p>
+		<blockquote>
+			<p>
+				Again, JavaScript-specific classes should not, under any circumstances, be styled.
+			</p>
+		</blockquote>
 	</div>
 	<div class="col">
-		{% highlight css %}{% include css/declaration-order.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-import">
-	<div class="col">
-		<h3>Don't use <code>@import</code></h3>
-		<p>Compared to <code>&lt;link&gt;</code>s, <code>@import</code> is slower, adds extra page requests, and can cause other unforeseen problems. Avoid them and instead opt for an alternate approach:</p>
-		<ul>
-			<li>Use multiple <code>&lt;link&gt;</code> elements</li>
-			<li>Compile your CSS with a preprocessor like Sass or Less into a single file</li>
-			<li>Concatenate your CSS files with features provided in Rails, Jekyll, and other environments</li>
-		</ul>
-		<p>For more information, <a href="http://www.stevesouders.com/blog/2009/04/09/dont-use-import/">read this article by Steve Souders</a>.</p>
-	</div>
-	<div class="col">
-		{% highlight html %}{% include css/import.html %}{% endhighlight %}
+		{% highlight html %}{% include css/javascript.html %}{% endhighlight %}
 	</div>
 </div>
-<div class="section" id="css-media-queries">
+<div class="section" id="css-quotes">
 	<div class="col">
-		<h3>Media query placement</h3>
-		<p>Place media queries as close to their relevant rule sets whenever possible. Don't bundle them all in a separate stylesheet or at the end of the document. Doing so only makes it easier for folks to miss them in the future. Here's a typical setup.</p>
+		<h3>Quotes</h3>
+		<p>
+			Quotes are optional in CSS and LESS. We use double quotes as it is visually clearer that the string is not a selector or a style property.
+		</p>
 	</div>
 	<div class="col">
-		{% highlight css %}{% include css/media-queries.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-prefixed-properties">
-	<div class="col">
-		<h3>Prefixed properties</h3>
-		<p>When using vendor prefixed properties, indent each property such that the declaration's value lines up vertically for easy multi-line editing.</p>
-		<p>In Textmate, use <strong>Text &rarr; Edit Each Line in Selection</strong> (&#8963;&#8984;A). In Sublime Text 2, use <strong>Selection &rarr; Add Previous Line</strong> (&#8963;&#8679;&uarr;) and <strong>Selection &rarr;  Add Next Line</strong> (&#8963;&#8679;&darr;).</p>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/prefixed-properties.css %}{% endhighlight %}
+		{% highlight css %}{% include css/quotes.css %}{% endhighlight %}
 	</div>
 </div>
-<div class="section" id="css-single-declarations">
-	<div class="col">
-		<h3>Single declarations</h3>
-		<p>In instances where a rule set includes <strong>only one declaration</strong>, consider removing line breaks for readability and faster editing. Any rule set with multiple declarations should be split to separate lines.</p>
-		<p>The key factor here is error detection—e.g., a CSS validator stating you have a syntax error on Line 183. With a single declaration, there's no missing it. With multiple declarations, separate lines is a must for your sanity.</p>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/single-declarations.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-shorthand">
-	<div class="col">
-		<h3>Shorthand notation</h3>
-		<p>Strive to limit use of shorthand declarations to instances where you must explicitly set all the available values. Common overused shorthand properties include:</p>
-		<ul>
-			<li><code>padding</code></li>
-			<li><code>margin</code></li>
-			<li><code>font</code></li>
-			<li><code>background</code></li>
-			<li><code>border</code></li>
-			<li><code>border-radius</code></li>
-		</ul>
-		<p>Often times we don't need to set all the values a shorthand property represents. For example, HTML headings only set top and bottom margin, so when necessary, only override those two values. Excessive use of shorthand properties often leads to sloppier code with unnecessary overrides and unintended side effects.</p>
-		<p>The Mozilla Developer Network has a great article on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties">shorthand properties</a> for those unfamiliar with notation and behavior.</p>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/shorthand.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-nesting">
-	<div class="col">
-		<h3>Nesting in Less and Sass</h3>
-		<p>Avoid unnecessary nesting. Just because you can nest, doesn't mean you always should. Consider nesting only if you must scope styles to a parent and if there are multiple elements to be nested.</p>
-	</div>
-	<div class="col">
-		{% highlight scss %}{% include css/nesting.scss %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-comments">
-	<div class="col">
-		<h3>Comments</h3>
-		<p>Code is written and maintained by people. Ensure your code is descriptive, well commented, and approachable by others. Great code comments convey context or purpose. Do not simply reiterate a component or class name.</p>
-		<p>Be sure to write in complete sentences for larger comments and succinct phrases for general notes.</p>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/comments.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-classes">
-	<div class="col">
-		<h3>Class names</h3>
-		<ul>
-			<li>Keep classes lowercase and use dashes (not underscores or camelCase). Dashes serve as natural breaks in related class (e.g., <code>.btn</code> and <code>.btn-danger</code>).</li>
-			<li>Avoid excessive and arbitrary shorthand notation. <code>.btn</code> is useful for <em>button</em>, but <code>.s</code> doesn't mean anything.</li>
-			<li>Keep classes as short and succinct as possible.</li>
-			<li>Use meaningful names; use structural or purposeful names over presentational.</li>
-			<li>Prefix classes based on the closest parent or base class.</li>
-			<li>Use <code>.js-*</code> classes to denote behavior (as opposed to style), but keep these classes out of your CSS.</li>
-		</ul>
-		<p>It's also useful to apply many of these same rules when creating Sass and Less variable names.</p>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/class-names.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-selectors">
-	<div class="col">
-		<h3>Selectors</h3>
-		<ul>
-			<li>Use classes over generic element tag for optimum rendering performance.</li>
-			<li>Avoid using several attribute selectors (e.g., <code>[class^="..."]</code>) on commonly occuring components. Browser performance is known to be impacted by these.</li>
-			<li>Keep selectors short and strive to limit the number of elements in each selector to three.</li>
-			<li>Scope classes to the closest parent <strong>only</strong> when necessary (e.g., when not using prefixed classes).</li>
-		</ul>
-		<p>Additional reading:</p>
-		<ul>
-			<li><a href="http://markdotto.com/2012/02/16/scope-css-classes-with-prefixes/">Scope CSS classes with prefixes</a></li>
-			<li><a href="http://markdotto.com/2012/03/02/stop-the-cascade/">Stop the cascade</a></li>
-		</ul>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/selectors.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-organization">
-	<div class="col">
-		<h3>Organization</h3>
-		<ul>
-			<li>Organize sections of code by component.</li>
-			<li>Develop a consistent commenting hierarchy.</li>
-			<li>Use consistent white space to your advantage when separating sections of code for scanning larger documents.</li>
-			<li>When using multiple CSS files, break them down by component instead of page. Pages can be rearranged and components moved.</li>
-		</ul>
-	</div>
-	<div class="col">
-		{% highlight css %}{% include css/organization-comments.css %}{% endhighlight %}
-	</div>
-</div>
-<div class="section" id="css-editor-prefs">
-	<div class="col">
-		<h3>Editor preferences</h3>
-		<p>Set your editor to the following settings to avoid common code inconsistencies and dirty diffs:</p>
-		<ul>
-			<li>Use soft-tabs set to two spaces.</li>
-			<li>Trim trailing white space on save.</li>
-			<li>Set encoding to UTF-8.</li>
-			<li>Add new line at end of files.</li>
-		</ul>
-		<p>Consider documenting and applying these preferences to your project's <code>.editorconfig</code> file. For an example, see <a href="https://github.com/twbs/bootstrap/blob/master/.editorconfig">the one in Bootstrap</a>. Learn more <a href="http://editorconfig.org">about EditorConfig</a>.</p>
-	</div>
-</div>
+
 <div class="heading" id="javascript">
 	<h2><span class='char char-dorothy'></span> Javascript</h2>
 	<blockquote>
-		<p>Toto, I've a feeling we're not in the global namespace anymore.</p>
+		<p>Toto, I've a feeling we're not in <strong>the global namespace</strong> anymore.</p>
 	</blockquote>
 </div>
+
+<div class="section" id="js-syntax">
+	<div class="col">
+		<h3>Syntax</h3>
+		<ul>
+			<li>Use actual tab characters</li>
+			<li>End each statement with a semicolon <code>;</code></li>
+			<li>Put the <code>{</code> on the same line as the code block declaration, <strong>not</strong> prepended by a space.</li>
+			<li>Avoid excessive whitespace. Code blocks should have 1 or 2 line breaks between them, never more.</li>
+			<li>Else should look like this: <code>} else {</code></li>
+			<li>Else If should look like this: <code>} else if(...){</code></li>
+			<li>Pad your operators with a single space.</li>
+			<li>Always use <code>{</code> and <code>}</code> to define blocks of code, and never compress a block of code to a single line.</li>
+		</ul>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/syntax.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-object-creation">
+	<div class="col">
+		<h3>Object and Array Creation</h3>
+		<p>
+			Use the literal syntax for object and array creation.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/creation.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-reserved">
+	<div class="col">
+		<h3>Reserved Words</h3>
+		<p>
+			Don't use <a href="http://es5.github.io/#x7.6.1">reserved words</a> as keys. It won't work in IE8. <a href="https://github.com/airbnb/javascript/issues/61">More info</a>
+		</p>
+		<p>
+			Use readable synonyms in place of reserved words.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/reserved.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-push">
+	<div class="col">
+		<h3>Pushing to an Array</h3>
+		<p>
+			If you don't know array length use Array#push.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/push.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-slice">
+	<div class="col">
+		<h3>Copying Arrays</h3>
+		<p>
+			When you need to copy an array use Array#slice. <a href="http://jsperf.com/converting-arguments-to-an-array/7">jsPerf</a>
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/slice.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-strings">
+	<div class="col">
+		<h3>Strings</h3>
+		<p>
+			Use single quotes <code>''</code> for strings
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/strings.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-string-join">
+	<div class="col">
+		<h3>Joining Strings</h3>
+		<p>
+			When programmatically building up a string, use Array#join instead of string concatenation. Mostly for IE: <a href="http://jsperf.com/string-vs-array-concat/2">jsPerf</a>.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/string-join.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-functions">
+	<div class="col">
+		<h3>Functions</h3>
+		<p>
+			Never declare a function in a non-function block (if, while, etc). Assign the function to a variable instead. Browsers will allow you to do it, but they all interpret it differently, which is bad news bears.
+		</p>
+		<blockquote>
+			<p>
+				Note: ECMA-262 defines a <code>block</code> as a list of statements. A function declaration is not a statement. <a href="http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-262.pdf#page=97">Read ECMA-262's note on this issue</a>.
+			</p>
+		</blockquote>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/functions.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-arguments">
+	<div class="col">
+		<h3>Arguments</h3>
+		<p>
+			Never name a parameter <code>arguments</code>, this will take precedence over the arguments object that is given to every function scope.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/arguments.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-properties">
+	<div class="col">
+		<h3>Properties</h3>
+		<p>
+			Use dot notation when accessing properties.
+		</p>
+		<p>
+			Use subscript notation <code>[]</code> when accessing properties with a variable.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/properties.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-variables">
+	<div class="col">
+		<h3>Variables</h3>
+		<p>
+			Always use <code>var</code> to declare variables. Not doing so will result in global variables. <strong>We want to avoid polluting the global namespace</strong>. Captain Planet warned us of that.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/variables.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-multiple-variables">
+	<div class="col">
+		<h3>Declaring Multiple Variables</h3>
+		<p>
+			Use one <code>var</code> declaration for multiple variables and declare each variable on a newline.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/multiple-variables.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-unassigned-variables">
+	<div class="col">
+		<h3>Declaring Unassigned Variables</h3>
+		<p>
+			Declare unassigned variables last. This is helpful when later on you might need to assign a variable depending on one of the previous assigned variables.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/unassigned-variables.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-where-variables">
+	<div class="col">
+		<h3>Where to Declare Variables</h3>
+		<p>
+			Assign variables at the top of their scope. This helps avoid issues with variable declaration and assignment hoisting related issues.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/where-variables.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-hoisting">
+	<div class="col">
+		<h3>Hoisting</h3>
+		<p>
+			Variable declarations get hoisted to the top of their scope, their assignment does not.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/hoisting1.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-hoisting2">
+	<div class="col">
+		<p>
+			Anonymous function expressions hoist their variable name, but not the function assignment.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/hoisting2.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-hoisting3">
+	<div class="col">
+		<p>
+			Named function expressions hoist the variable name, not the function name or the function body.
+		</p>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/hoisting3.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-hoisting4">
+	<div class="col">
+		<p>
+			Function declarations hoist their name and the function body.
+		</p>
+		<blockquote>
+			<p>
+				For more information refer to <a href="http://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting">JavaScript Scoping & Hoisting</a> by <a href="http://www.adequatelygood.com/">Ben Cherry</a>.
+			</p>
+		</blockquote>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/hoisting4.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-equality">
+	<div class="col">
+		<h3>Conditional Expressions & Equality</h3>
+		<p>
+			Use <code>===</code> and <code>!==</code> over <code>==</code> and <code>!=</code>.
+		</p>
+		<p>
+			Conditional expressions are evaluated using coercion with the ToBoolean method and always follow these simple rules:
+		</p>
+		<ul>
+			<li><strong>Objects</strong> evaluate to <strong>true</strong></li>
+			<li><strong>Undefined</strong> evaluates to <strong>false</strong></li>
+			<li><strong>Null</strong> evaluates to <strong>false</strong></li>
+			<li><strong>Booleans</strong> evaluate to <strong>the value of the boolean</strong></li>
+			<li><strong>Numbers</strong> evaluate to <strong>false</strong> if <strong>+0, -0, or NaN</strong>, otherwise <strong>true</strong></li>
+			<li><strong>Strings</strong> evaluate to <strong>false</strong> if an empty string <code>''</code>, otherwise <strong>true</strong></li>
+		</ul>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/equality.js %}{% endhighlight %}
+	</div>
+</div>
+<div class="section" id="js-equality2">
+	<div class="col">
+		<p>
+			Use shortcuts.
+		</p>
+		<blockquote>
+			<p>
+				For more information see <a href="http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108">Truth Equality and JavaScript</a> by Angus Croll.
+			</p>
+		</blockquote>
+	</div>
+	<div class="col">
+		{% highlight js %}{% include js/equality2.js %}{% endhighlight %}
+	</div>
+</div>
+
+
 <div class="heading" id="automation">
 	<h2><span class='char char-tinman'></span> Testing & Automation</h2>
 	<blockquote>
-		<p>Now I know I've got a linter, 'cause it's breaking...</p>
+		<p>Now I know I've got a <strong>linter</strong>, 'cause it's breaking...</p>
 	</blockquote>
+</div>
+
+<div class="section">
+	<div class="col">
+		<p>
+			Coming soon...
+		</p>
+	</div>
 </div>
