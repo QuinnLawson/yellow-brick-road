@@ -11,10 +11,10 @@ if(x===y) z=a
 
 
 
-function edit()
+function edit(el)
 {
 
-	//...
+	$(el).css('border-color', 'yellow');
 
 }
 
@@ -26,6 +26,6 @@ if(x === y){
 	z = a;
 }
 
-function edit(){
-	//...
+function edit(el){
+	$(el).addClass('editing');
 }
